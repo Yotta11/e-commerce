@@ -19,6 +19,12 @@ import headphones from './assets/Headphones.png'
 import computers from './assets/Computers.png'
 import gaming from './assets/Gaming.png'
 import like from "./assets/Like.svg"
+import ecouteurs from  "./assets/ecouteurs.svg"
+import montre2 from "./assets/montre2.svg"
+import zfold from "./assets/zflod.svg"
+import montre from "./assets/montre.svg"
+import ipad from './assets/ipad.svg'
+
 import iphone2 from "./assets/Iphone14.svg"
 import './App.css'
 
@@ -183,11 +189,11 @@ function App() {
     </a>
 </div>
 
-<div className='grid grid-cols-2'>
+<div className='grid grid-cols-2 gap-4'>
 <Component3
               icon={like}
               image={iphone2}
-              title="Apple iPhone 14 Pro Max 128GB Deep ...)"
+              title="Apple iPhone 14 Pro Max 128GB Deep ..."
               subtitle="$900"
               buttonText="Buy now"
             />
@@ -201,10 +207,59 @@ function App() {
             />
 
 
+            <Component3
+              icon={like}
+              image={montre}
+              title="Apple Watch Series 9 GPS 41mm ..."
+              subtitle="$399"
+              buttonText="Buy now"
+            />
+
+            <Component3
+              icon={like}
+              image={casque}
+              title="AirPods Max Silver"
+              subtitle="$549"
+              buttonText="Buy now"
+            />
+            <Component3
+              icon={like}
+              image={montre2}
+              title="Samsung Galaxy Watch6 Classic 47mm Black"
+              subtitle="$369"
+              buttonText="Buy now"
+            />
+            <Component3
+              icon={like}
+              image={zfold}
+              title="Galaxy Z Fold5 Unlocked | 256GB | Phantom ..."
+              subtitle="$1799"
+              buttonText="Buy now"
+            />
+            <Component3
+              icon={like}
+              image={ecouteurs}
+              title="Galaxy Buds FE Graphite"
+              subtitle="$99.99"
+              buttonText="Buy now"
+            />
+            <Component3
+              icon={like}
+              image={ipad}
+              title="Apple iPad 9 10.2 64GB Wi-Fi Silver ..."
+              subtitle="$398"
+              buttonText="Buy now"
+            />
+
+
 </div>
         </section>
 
+{/* section5 */}
+<section>
 
+  
+</section>
 
 
       </section>
