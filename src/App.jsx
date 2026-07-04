@@ -8,14 +8,18 @@ import vision from './assets/vision.svg'
 import playstation from './assets/play.svg'
 import Component1 from './components/Component1'
 import Component2 from './components/Component2'
+import Component3 from './components/Component3'
 import fleche1 from './assets/Arrow.svg'
 import fleche2 from './assets/Icon.svg'
 import phone from "./assets/Phones.svg"
 import watches from './assets/Smart.svg'
 import cameras from "./assets/Cameras.png"
+import camera from "./assets/camera.svg"
 import headphones from './assets/Headphones.png'
 import computers from './assets/Computers.png'
 import gaming from './assets/Gaming.png'
+import like from "./assets/Like.svg"
+import iphone2 from "./assets/Iphone14.svg"
 import './App.css'
 
 function App() {
@@ -112,7 +116,7 @@ function App() {
 
 
 {/* section3 */}
-        <section className='mt-10 p-4  w-full h-96 h-screen'>
+        <section className='mt-10 p-4  w-full '>
           <div className='flex justify-between'>
             <h1 className=' font-medium font-titre text-[24px] text-primary'> Browse By Category</h1>
             <div className=' flex gap-2 mt-1'>
@@ -152,13 +156,53 @@ function App() {
           </div>
 
         </section>
-        
+
+
          {/* section4 */}
         
-        <section>
+        <section  className='mt-8 m-4'>
 
+<div className='flex justify-between'>
+  <a href="#" className='flex flex-col gap-1 justify-center items-center'>
+    <h1 className='font-titre font-semibold text-[15px] text-primary '>
+      New Arrival
+    </h1>
+    <hr className='w-22 h-1 bg-primary'></hr>
+    </a>
+
+    <a href="#">
+    <h1 className='font-titre font-semibold text-[15px] text-gris1 '>
+      Bestseller
+    </h1>
+    </a>
+
+    <a href="#">
+    <h1 className='font-titre font-semibold text-[15px] text-gris1 '>
+      Featured Products
+    </h1>
+    </a>
+</div>
+
+<div className='grid grid-cols-2'>
+<Component3
+              icon={like}
+              image={iphone2}
+              title="Apple iPhone 14 Pro Max 128GB Deep ...)"
+              subtitle="$900"
+              buttonText="Buy now"
+            />
+
+<Component3
+              icon={like}
+              image={camera}
+              title="Blackmagic Pocket Cinema Camera 6k"
+              subtitle="$2535"
+              buttonText="Buy now"
+            />
+
+
+</div>
         </section>
-
 
 
 
