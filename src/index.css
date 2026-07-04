@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "tailwindcss";
+
+@theme {
+    --color-noir1: #211C24;
+    --color-secondary: #14b8a6;
+    --color-accent: #f59e0b;
+    --color-noir2:#353535;
+    --color-primary:#000000;
+    --color-blanc:#FFFFFF;
+    --color-gris:#EDEDED;
+    --color-gris2:#F9F9F9;
+    --color-noir3:#2E2E2E;
+
+    --font-titre:"SF Pro Display",sans-serif;
+    --font-titre2: "Figtree", sans-serif;
+    --font-body: "Inter", sans-serif;
+}
