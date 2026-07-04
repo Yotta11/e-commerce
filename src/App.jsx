@@ -24,6 +24,7 @@ import montre2 from "./assets/montre2.svg"
 import zfold from "./assets/zflod.svg"
 import montre from "./assets/montre.svg"
 import ipad from './assets/ipad.svg'
+import Ipad from './assets/Ipad.svg'
 
 import iphone2 from "./assets/Iphone14.svg"
 import './App.css'
@@ -256,9 +257,13 @@ function App() {
         </section>
 
 {/* section5 */}
-<section>
+<section className='mt-10'>
+  <img src={Ipad} alt="" className='ml-8' />
+  <div>
+    
+  </div>
 
-  
+
 </section>
 
 
