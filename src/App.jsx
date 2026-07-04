@@ -7,6 +7,15 @@ import macbook from './assets/Screen.svg'
 import vision from './assets/vision.svg'
 import playstation from './assets/play.svg'
 import Component1 from './components/Component1'
+import Component2 from './components/Component2'
+import fleche1 from './assets/Arrow.svg'
+import fleche2 from './assets/Icon.svg'
+import phone from "./assets/Phones.svg"
+import watches from './assets/Smart.svg'
+import cameras from "./assets/Cameras.png"
+import headphones from './assets/Headphones.png'
+import computers from './assets/Computers.png'
+import gaming from './assets/Gaming.png'
 import './App.css'
 
 function App() {
@@ -26,6 +35,7 @@ function App() {
 
           </div>
         </header>
+        {/* section1 */}
         <section className='bg-noir1  w-full h-auto p-6 flex flex-col gap-12'>
           <div className=' flex flex-col justify-center items-center gap-8'>
             <div className='flex flex-col items-center gap-6'>
@@ -53,7 +63,7 @@ function App() {
           </div>
         </section>
 
-
+{/* section2 */}
         <section className='flex flex-col  '>
 
           <div className="min-h-[300px] flex justify-center items-center bg-gris">
@@ -101,11 +111,53 @@ function App() {
         </section>
 
 
+{/* section3 */}
+        <section className='mt-10 p-4  w-full h-96 h-screen'>
+          <div className='flex justify-between'>
+            <h1 className=' font-medium font-titre text-[24px] text-primary'> Browse By Category</h1>
+            <div className=' flex gap-2 mt-1'>
+              <img src={fleche2} className=' w-7 h-7' />
+              <img src={fleche1} className=' w-7 h-7  ' />
+            </div>
+          </div>
 
-<section>
+          <div className='grid grid-cols-2 gap-4 pt-6 '>
 
+            <Component2
+              image={phone}
+              title="Phones"
+            />
 
-</section>
+            <Component2
+              image={phone}
+              title="Smart Watches"
+            />
+            <Component2
+              image={cameras}
+              title="Cameras"
+            />
+            <Component2
+              image={headphones}
+              title="Headphones"
+            />
+            <Component2
+              image={computers}
+              title="Computers"
+            />
+            <Component2
+              image={gaming}
+              title="Gaming"
+            />
+
+          </div>
+
+        </section>
+        
+         {/* section4 */}
+        
+        <section>
+
+        </section>
 
 
 
