@@ -250,8 +250,6 @@ function App() {
               subtitle="$398"
               buttonText="Buy now"
             />
-
-
 </div>
         </section>
 
@@ -266,13 +264,13 @@ function App() {
 </section>
 
 <section>
+    <div>
+
+    </div>
 
 </section>
 
       </section>
-
-
-
     </>
   )
 }
