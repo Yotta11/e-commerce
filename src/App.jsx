@@ -257,10 +257,8 @@ function App() {
 <section className='mt-10'>
   <img src={Ipad} alt="" className='ml-8' />
   <div>
-    
+   
   </div>
-
-
 </section>
 
 <section>
